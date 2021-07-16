@@ -376,6 +376,4 @@ app.post("/avail8",function(req,res){
     })
 })
 
-app.listen(3700,function(req,res){
-    console.log("server has started on port 3700");
-})
+
