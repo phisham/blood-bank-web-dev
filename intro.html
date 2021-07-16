@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Login form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <style>
+            body {
+                
+                background-image: url(http://cdn.wallpapersafari.com/77/93/rwMOk1.png);
+                height: 100%;
+                background-size: cover;
+            }
+            #txt {
+                text-align: center;
+                font-size: 3em;
+                color: rgb(248, 244, 244);
+                font-weight: 900;
+                text-shadow:7px 7px 7px rgb(10, 10, 10);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            }
+            #cont{
+               position:absolute;
+               top: 25%;
+               right: 33%;
+               
+               backface-visibility: visible;
+               background-size: cover;
+               width: 550px;
+               height: 450px;
+               
+
+            }
+            #sub{
+                color: rgb(14, 8, 6);
+            }
+            .click{
+                color: rgb(7, 7, 53);
+            }
+        </style>
+    </head>
+
+    <body>
+          <form id="cont" method="POST">
+              <h1 id="txt">BLOOD BANK</h1>  
+              <div class="d-flex flex-column" id="sub">
+                <h2 class="mt-5 ">For blood donor hospitals to register/login , <a href="/regh" class="click">click here</a></h1>
+                <h2>For blood receivers to register/login , <a href="/reghnew" class="click">click here</a></h1>
+                    
+              </div>
+              <button class="btn-primary text-center" type="submit">Request sample</button>
+          </form>
+          
+          
+          
+    </body>
+   
+</html>
+
