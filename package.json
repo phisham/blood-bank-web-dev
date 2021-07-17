@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node server.js",
+    "test": "echo\"E",rror: no test specified\" && exit 1" 
     "start": "node server.js"
   },
   "author": "MOHAMMED HISHAM P",
