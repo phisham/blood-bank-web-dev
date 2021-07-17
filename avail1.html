@@ -5,8 +5,12 @@
         <title>Login form</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <style>
-          
-            #center {
+             body{
+                 background-image:url(http://cdn.wallpapersafari.com/11/32/8d1c9h.png);
+                 height:100vh;
+                 background-size:cover;
+            }
+            .center {
                 position: absolute;
                 left: 50%;
                 top: 50%;
@@ -18,16 +22,13 @@
 
     <body>
         
-         <div class="d-flex flex-row align-items-center-evenly" id="center">
-            <div>
-             <img src="https://www.pikpng.com/pngl/b/252-2525544_blood-drop-by-prapanj-a-drop-of-blood.png" >
-            </div> 
-            <div>
+         <div class="center">
+          
                 <form method="POST" id="avail">
-                    <button class="btn-primary text-center" type="submit">Click here to get the available slots</button>
+                    <button class="btn-primary text-center mb-5" type="submit">Click here to get the available slots</button>
                 </form>
                 <a href="/" class="btn-btn-primary mt-5">SIGN OUT</a>
-            </div>   
+           
         </div>
     </body>
 </html>
