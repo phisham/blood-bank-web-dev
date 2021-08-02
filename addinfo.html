@@ -1,81 +1,78 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
     <head>
         <meta charset="utf-8">
         <title>Login form</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <style>
-            body{
-                background-image:url(https://media.istockphoto.com/photos/iv-drip-on-the-background-of-blurred-hospital-ward-picture-id540827430?k=6&m=540827430&s=170667a&w=0&h=UuQEoknD-21PYR0z6R0MqkBfeFccWQin_aFOWSENsFE=);
-                height:100vh;
-                background-size:cover;
-            }
-        </style>    
+        
     </head>
     <body>
         <form method="POST" action="">
+           <div ng-app="">
             <h1>For group - A+ve</h1>
             <div class="mb-4">
-                <input name="name1" placeholder="Enter the total stock">
-                
+                <input name="name1" ng-model="stock1" placeholder="Enter the total stock">
+                <p>Amount of blood(ltrs) added is : <span ng-bind="stock1"></span></p>
             </div>
 
             <h1>For group - A-ve</h1>
             <div class="mb-4">
                 
-                <input name="name2" placeholder="Enter the total stock">
-                
+                <input name="name2" ng-model="stock2" placeholder="Enter the total stock">
+                <p>Amount of blood(ltrs) added is : <span ng-bind="stock2"></span></p>
 
             </div>
 
             <h1>For group - B+ve</h1>
             <div class="mb-4">
                 
-                <input name="name3"  placeholder="Enter the total stock">
-                
+                <input name="name3" ng-model="stock3" placeholder="Enter the total stock">
+                <p>Amount of blood(ltrs) added is : <span ng-bind="stock3"></span></p>
 
             </div>
 
             <h1>For group - B-ve</h1>
             <div class="mb-4">
                 
-                <input name="name4"  placeholder="Enter the total stock">
-                
+                <input name="name4" ng-model="stock4" placeholder="Enter the total stock">
+                <p>Amount of blood(ltrs) added is : <span ng-bind="stock4"></span></p>
 
             </div>
 
             <h1>For group - AB+ve</h1>
             <div class="mb-4">
                 
-                <input name="name5"  placeholder="Enter the total stock">
-                
+                <input name="name5" ng-model="stock5" placeholder="Enter the total stock">
+                <p>Amount of blood(ltrs) added is : <span ng-bind="stock5"></span></p>
 
             </div>
 
             <h1>For group - AB-ve</h1>
-            <div class="mb-4">
+            <div  class="mb-4">
                 
-                <input name="name6"  placeholder="Enter the total stock">
-                
+                <input name="name6" ng-model="stock6" placeholder="Enter the total stock">
+                <p>Amount of blood(ltrs) added is : <span ng-bind="stock6"></span></p>
 
             </div>
 
             <h1>For group - O+ve</h1>
-            <div class="mb-4">
+            <div  class="mb-4">
                 
-                <input name="name7"  placeholder="Enter the total stock">
-                
+                <input name="name7" ng-model="stock7" placeholder="Enter the total stock">
+                <p>Amount of blood(ltrs) added is : <span ng-bind="stock7"></span></p>
 
             </div>
 
             <h1>For group - 0-ve</h1>
             <div class="mb-4">
                 
-                <input name="name8" placeholder="Enter the total stock">
-                
+                <input name="name8" ng-model="stock8" placeholder="Enter the total stock">
+                <p>Amount of blood(ltrs) added is : <span ng-bind="stock8"></span></p>
 
             </div>
-
+           </div>
 
 
             <button class="btn-primary text-center" type="submit">Add blood info</button>
